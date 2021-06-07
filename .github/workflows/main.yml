@@ -48,6 +48,6 @@ jobs:
       run: |
         git config --global "siifan168"
         git config --global "1546686828@qq.com"
-        git clone https://github.com/siifan168/myhexo.git .deploy_git
+        git clone https://github.com/myhexo.git .deploy_git
         export TZ='Asia/Shanghai'
         hexo deploy
