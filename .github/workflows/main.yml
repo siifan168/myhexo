@@ -46,8 +46,8 @@ jobs:
         hexo generate
     - name: Deploy # 部署
       run: |
-        git config --global "siifan168" # "GitHub用户名"
-        git config --global "1546686828@qq.com" # "GitHub邮箱"
+        git config --global "siifan168"
+        git config --global "1546686828@qq.com"
         git clone https://github.com/siifan168/siifan168.github.io.git .deploy_git
         export TZ='Asia/Shanghai'
         hexo deploy
